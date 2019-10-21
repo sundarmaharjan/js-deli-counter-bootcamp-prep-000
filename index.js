@@ -14,7 +14,7 @@ function nowServing(KatzDeliLine) {
   }
 }
 
-function currentLine(ada, grace)
+function currentLine(ada, grace) {
  var customer = [];
   if( customer.length === 0) {
     return "the line is empty"
