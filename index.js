@@ -9,7 +9,7 @@ function nowServing(KatzDeliLine) {
   if(KatzDeliLine.length === 0 ){
     return "there is nobody is waiting to be served, Mate!!"
   } else {
-    var name = newcustomer [0];
+    var name = customer [0];
     KatzDeliLine.splice(0,1)
     
     
