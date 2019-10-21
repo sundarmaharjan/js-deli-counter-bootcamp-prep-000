@@ -19,5 +19,8 @@ function currentLine("ada", "grace")
   if( customer.length === 0) {
     return "the line is empty"
   } else {
-    for var i = 0; i < customer.length; i++ ) {
+    for (var i = 0; i < customer.length; i++ ) {
+      customer.push (i + 1 ". " + KatzDeliLine[i]);
+  } 
+  return "the line is currently; " + customer
   }
