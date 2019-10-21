@@ -1,1 +1,1 @@
-function KatzDeliLine = []
+var KatzDeliLine = [];
