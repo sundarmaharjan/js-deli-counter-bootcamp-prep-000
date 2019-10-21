@@ -14,15 +14,15 @@ function nowServing(KatzDeliLine) {
   }
 }
 
-function currentLine(ada, grace) {
+function currentLine(n) {
  var customer = [];
-  if( customer.length === 0) {
+  if( n.length === 0) {
     return "the line is empty"
   } else {
     for (var i = 0; i < customer.length; i++ ) {
       customer.push (i + 1 ". " + KatzDeliLine[i]);
   } 
-  return "the line is currently; " + customer
+  return "the line is currently; " + n
   }
   
   
