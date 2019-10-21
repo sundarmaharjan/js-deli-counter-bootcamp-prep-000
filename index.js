@@ -5,4 +5,6 @@ function takeANumber(KatzDeliLine, name) {
   return "welcome " + name + " . you are number 1 " + KatzDeliLine.length + "in line." ;
 }
 
-function nowServing
+function nowServing(KatzDeliLine) {
+  if
+}
